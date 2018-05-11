@@ -1,0 +1,102 @@
+@charset "utf-8";
+/* 打击乐器 */
+.percussion{
+	font-family: "宋体";
+	height:420px;
+	background: #F5F5F5;
+}
+.percussion h4{
+	font-weight: normal;
+	padding:31px 0 25px 0 ;
+	font-size: 20px;
+
+}
+.percussion .solid{
+	width: 64px;
+	height: 2px;
+	background: url('../images/xian.gif') no-repeat;
+}
+.percussion p{
+	margin-top:30px;
+	width: 441px;
+	font-size: 14px;
+	line-height: 20px;
+	color:#85878B;
+	text-indent: 2em;
+}
+.percussion .right{
+	padding-top:20px;
+}
+/* 教师团队 */
+.tim h3{
+	font-size:30px;
+	padding:100px 0 18px 0;
+	text-align: center;
+}
+.tim .solid{
+	width: 64px;
+	height: 2px;
+	margin: 0 auto;
+	padding-left:-32px;
+	background: url('../images/xian.gif') no-repeat;
+}
+.tim .text{
+	padding: 24px 0 16px 0;
+	text-align: center;
+	color: #ABACAF;
+}
+.tim ul li{
+	width: 278px;
+}
+.tim ul li h5{
+	padding:16px 0 17px 0;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+.tim ul li p{
+	text-indent: 2em;
+	padding-bottom: 48px;
+	text-align: center;
+	color: #C2C3C5;
+}
+.tim ul li div{
+	text-align: center;
+}
+.tim ul li:nth-child(2){
+	margin: 0 82px;
+}
+/* 教学设施 */
+.Teaching{
+	background:#F5F5F5 ;
+}
+.Teaching h3{
+	font-size:30px;
+	padding:100px 0 18px 0;
+	text-align: center;
+}
+.Teaching .solid{
+	width: 64px;
+	height: 2px;
+	margin: 0 auto;
+	padding-left:-32px;
+	background: url('../images/xian.gif') no-repeat;
+}
+.Teaching .text{
+	padding: 24px 0 16px 0;
+	text-align: center;
+}
+
+.Teaching .Teaching_top_center{
+	padding: 0 64px;
+}
+.Teaching .Teaching_bottom .Teaching_bo_left,.Teaching .Teaching_bottom .Teaching_bo_right{
+	height: 324px;
+}
+.Teaching .Teaching_bottom .Teaching_bo_right{
+	padding-top: 42px;
+}
+
+
+
+

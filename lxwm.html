@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/lxwm.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/banner.js"></script>
+</head>
+<body>
+	<div class="top">
+		<div class="top_xin gWidth clearfix">
+			<p>SAZ <span>MUSIC</span></p>
+			<div class="top_xin_a">
+				<a href="shouye.html">主页</a>
+				<a href="gysaz.html">关于SAZ</a>
+				<a href="teaching.html">音乐制作</a>
+				<a href="MusicMaking.html">教学培训</a>
+				<a href="lxwm.html">联系我们</a>
+			</div>
+		</div>
+	</div>
+
+	<div class='rotateBanner'></div>
+	<script>
+var arr={imgArr:["images/1.jpg","images/2.jpg","images/3.jpg","images/4.jpg","images/5.jpg","images/6.jpg","images/7.jpg","images/8.jpg"]};
+$(".rotateBanner").rotateBanner(arr);
+</script>
+
+	<div class="content_top ">
+		<img src="images/content_top.jpg" alt="">
+	</div>
+	<form class="content" action="">
+		<div class="centent1">
+			<div class="input1">姓名：<input type="text" placeholder="请输入姓名"></div>
+			<div class="input1">电话：<input type="text" placeholder="请输入电话号码"></div>
+			<div class="input1">邮箱：<input type="text" placeholder="请输入邮箱地址"></div>
+			<div class="input2"><input class="submit" type="submit" value="提交"></div>
+		</div>
+		<div class="centent2"><img src="images/map.jpg" alt=""></div>
+		<div class="centent3 clearfix">
+			<div class="centent3_l">
+				<p><span>联系人：</span>刘老师</p>
+				<p><span>电话：</span>8888-8888-888</p>
+				<p class="centent3_l_p3">扫码关注我们哦！！！</p>
+			</div>
+			<div class="centent3_r"><img src="images/ewm.jpg"alt=""></div>
+		</div>
+	</form>
+<div class="footer"></div>
+</body>
+</html>

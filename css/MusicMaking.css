@@ -1,0 +1,123 @@
+@charset "utf-8";
+.content_footer{
+	background: #f0f0f0;
+	padding-bottom: 100px;
+}
+.content_footer h3{
+	line-height: 160px;
+	height: 160px;
+	padding-left:135px;
+	text-align: center;
+	padding-left: 20px;
+	font-size: 30px;
+}
+.content_footer h3 span{
+	color: red;
+}
+.content_footer .music li{
+width: 500px;
+float: left;
+height: 541px;
+margin-bottom: 90px;
+}
+.content_footer .music .music_frist{
+	position: relative;
+	z-index: 100;
+}
+.content_footer .music .music_frist .lefttop{
+	position: absolute;
+	top:0;left:0;
+	z-index: 10;
+}
+.content_footer .music .music_frist .rightbottom{
+	position: absolute;
+	bottom:24px;right:0;
+	z-index: 10;
+}
+.content_footer .music li .box{
+	width: 311px;
+	height: 460px;
+	margin-left:70px;
+	margin-top: 30px;
+	background: #F0F0F0;
+	border-width: 24px 21px;
+	border-style: solid;
+	border-color: #FBF7F7;
+}
+.content_footer .music li .img{
+	text-align: center;
+	margin-left:70px;
+	background: #FBF7F7;
+	position: relative;
+	z-index: 200;
+}
+.content_footer .music li .box h4{
+	text-align: center;
+	font-size: 24px;
+	padding: 30px 0 83px;
+}
+.content_footer .music li .box p{
+	padding-left: 18px;
+	font-size: 18px;
+	color: #868484;
+	text-indent: 2em;
+	padding-right: 18px;
+}
+.content_footer_top{
+	width: 800px;
+	height: 290px;
+	background: #F0F0F0;
+	border-width: 26px;
+	border-style: solid;
+	border-color: #FDFAFA;
+	border-radius:8px;
+
+}
+.content_footer_top .content_footer_top_text{
+	height: 50px;
+	line-height: 50px;
+}
+.content_footer_top .content_footer_top_text h4{
+	padding-left: 10px;
+	font-size: 24px;
+}
+.content_footer_top .content_footer_top_text p{
+	font-size: 18px;
+	padding-right: 10px;
+	
+}
+.content_footer_top .content_footer_top_text p a{
+	color: #B0AFAF;
+}
+.content_footer_top .content_footer_top_list li{
+	float: left;
+	padding-right: 20px;
+	width: 184px;
+}
+.content_footer_top .content_footer_top_list li .img{
+	position: relative;
+}
+.content_footer_top .content_footer_top_list li .img p{
+	position: absolute;
+	padding-left: 33px;
+	line-height: 30px;
+	height: 30px;
+	bottom: 0;left:0;
+	background: rgba(0, 0, 0, 0.3);
+	color: white;
+}
+.content_footer_top .content_footer_top_list li .img p span{
+	padding-left: 86px;
+}
+.content_footer_top .content_footer_top_list li:nth-child(4){
+	padding-right: 0;
+}
+.content_footer_top .content_footer_top_list li p a{
+	color: #060401;
+	font-size: 16px;
+}
+.content_footer_top .content_footer_top_list li p a:hover{
+	text-decoration: underline;
+}
+
+
